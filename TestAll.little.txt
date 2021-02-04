@@ -1,0 +1,74 @@
+# Test file for little language
+
+double 5
+double 10
+
+triple 7
+triple 2
+
+square 2
+square 5
+
+cube 3
+cube 5
+
+sub 5 4
+sub 8 4
+
+add 2 3
+add 1 2 3
+add 1 2 3 4 5
+add 2 3 3
+add 4 5 6 7 8 9 10 2 3 4 
+add 4 2 3 2 4 4 5 
+ 
+div 10 5
+div 8 2
+div 16 4
+
+mult 4 5
+mult 1 2 3
+mult 1 2 3 4 5 
+mult 2 3 4 5
+mult 6 7 5 3 2 1 2 3 4 5  
+
+# Mix them up
+square 3
+double 6
+mult 5 2
+sub 9 3
+add 3 4 2
+sub 12 2
+cube 8
+add 5 6
+mult 8 2 1 2
+triple 4
+
+# Test spaces
+  square 7
+  add 3 2
+
+
+# The following cases should produce errors
+
+error 
+null
+no_op
+add 4
+double 3 8
+sub 2
+sub 3 4 5
+sub
+mult 3
+hi
+triple 
+cube
+cube 6 7
+halve 8 
+square 4 5
+double trouble
+add hello world
+add 4 5 xyz
+sub 3 abc
+div 3 0
+
